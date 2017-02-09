@@ -14,8 +14,9 @@ args = parser.parse_args()
 
 
 def searchYoutube():
+	base_url = 'https://www.youtube.com/results?search_query='
 	n = int(''.join(args.N))
-	url = 'https://www.youtube.com/results?search_query=' + ' '.join(args.search)
+	url = 'base_url' + ' '.join(args.search)
 
 	res = requests.get(url)
 	soup = bs4.BeautifulSoup(res.text, "lxml")
