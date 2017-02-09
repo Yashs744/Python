@@ -1,12 +1,12 @@
 # Python
 Python Files
 
-Youtube.py
+YouTube.py
 
     Searches Youtube for the Video enterd by the user.
     
-    Usage: Youtube.py item_toSearch number_of_hits
-    Usage: Youtube -h
+    Usage: YouTube.py item_toSearch number_of_hits
+    Usage: YouTube -h
     
     item_toSearch -> Keyword to be searched for
     number_of_hits -> Numbers of Videos to Display
