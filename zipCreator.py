@@ -6,7 +6,7 @@ import re
 filePatter = re.compile(r'\.py|\.txt$')
 
 # Creating Zip Object
-newZip = zipfile.ZipFile('Python&Txt.zip', 'a')
+newZip = zipfile.ZipFile('PythonFiles.zip', 'a')
 
 for x, y, z in os.walk(os.getcwd()):
     for filename in z:
